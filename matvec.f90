@@ -2,7 +2,7 @@ program matvec
 
 real:: x(3), A(3,3),y(3)
 A=reshape((/0.3,0.7,0.5,0.4,0.1,0.5,0.3,0.2,0.0/),shape(A))
-x=reshape((/ 1.0,1.0,1.0/),shape(x))
+x=reshape((/ 0.4,1.0,1.0/),shape(x))
 y=reshape((/ 0.0,0.0,0.0/),shape(x))
 
 write(*,*)" A"
